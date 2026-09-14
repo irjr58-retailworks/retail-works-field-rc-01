@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="96" fill="#1A1D24"/>
+  <rect x="32" y="32" width="448" height="448" rx="64" fill="#242933" stroke="#F5B800" stroke-width="12"/>
+  <!-- Porta-Pallet Structure Motif -->
+  <line x1="120" y1="90" x2="120" y2="422" stroke="#F5B800" stroke-width="24" stroke-linecap="round"/>
+  <line x1="392" y1="90" x2="392" y2="422" stroke="#F5B800" stroke-width="24" stroke-linecap="round"/>
+  <line x1="120" y1="180" x2="392" y2="180" stroke="#E05A1F" stroke-width="18" stroke-linecap="round"/>
+  <line x1="120" y1="300" x2="392" y2="300" stroke="#E05A1F" stroke-width="18" stroke-linecap="round"/>
+  <line x1="120" y1="410" x2="392" y2="410" stroke="#F5B800" stroke-width="20" stroke-linecap="round"/>
+  <!-- Bracing diagonals -->
+  <line x1="120" y1="180" x2="392" y2="300" stroke="#434C5E" stroke-width="10" stroke-dasharray="16 8"/>
+  <line x1="120" y1="300" x2="392" y2="180" stroke="#434C5E" stroke-width="10" stroke-dasharray="16 8"/>
+  <!-- Central RW Badge -->
+  <circle cx="256" cy="256" r="56" fill="#1A1D24" stroke="#F5B800" stroke-width="8"/>
+  <text x="256" y="270" font-family="system-ui, sans-serif" font-size="38" font-weight="900" fill="#F5B800" text-anchor="middle">v3</text>
+</svg>
