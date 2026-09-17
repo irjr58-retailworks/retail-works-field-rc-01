@@ -6,20 +6,31 @@
   <title>Retail Works — Inspeção Porta-Pallet</title>
   
   <!-- Configurações PWA e Mobile-First -->
-  <meta name="theme-color" content="#1A1D24" />
-  <meta name="color-scheme" content="dark" />
+  <meta name="theme-color" content="#F4F5F7" />
+  <meta name="color-scheme" content="light" />
   <meta name="description" content="Aplicação técnica para registro e inspeção de estruturas de armazenagem em campo" />
   
   <!-- Suporte específico iOS / iPadOS Home Screen Web App -->
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="apple-mobile-web-app-title" content="Retail Works" />
   <link rel="apple-touch-icon" href="./icons/icon-192.png" />
   <link rel="icon" type="image/svg+xml" href="./icons/favicon.svg" />
-  <script type="module" crossorigin src="./assets/index-CDsWJL6N.js"></script>
+  <script type="module" crossorigin src="./assets/index-SvqjwIH6.js"></script>
   <link rel="stylesheet" crossorigin href="./assets/index-Bx3niq-f.css">
 <link rel="manifest" href="./manifest.webmanifest"></head>
 <body>
-  <div id="app"></div>
+  <div id="app">
+    <!-- Splash / Abertura Imediata (Substituído no bootstrap do AppShell sem delay artificial) -->
+    <div id="app-splash" style="position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: #F4F5F7; z-index: 9999; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; padding: 24px; text-align: center; box-sizing: border-box;">
+      <img src="./logo-full.png" alt="Retail Works" style="width: 220px; max-width: 75vw; height: auto; display: block; margin: 0 auto 20px;" />
+      <div style="font-size: 16px; font-weight: 600; color: #1A1E29; letter-spacing: 0.3px; margin-bottom: 8px;">
+        Inspeção Porta-Pallet
+      </div>
+      <div style="font-size: 13px; color: #718096;">
+        Carregando aplicação...
+      </div>
+    </div>
+  </div>
 </body>
 </html>
